@@ -1,0 +1,6 @@
+CouplingConstFilename[+SizeMinimumLimit(-1ForNoLimit)] f13Yb3+G7_-1.0////f13Yb3+G7.J.decomposition.txt	-1
+IntmFilename1[orVACorFULL;+MaximumBlocks(-1ForNoLimit)] FULL	-1
+IntmFilename2[orVACorFULL;+MaximumBlocks(-1ForNoLimit)] f12Tm3+_JH0.5.txt	-1
+OutputFilename f13Yb3+G7_-1.0.J.decomposition.analyzation.txt
+VerboseMode(Yes1No0)	0
+MonitoringIndex	1000
