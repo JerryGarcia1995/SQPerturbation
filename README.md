@@ -19,7 +19,7 @@
 5. Run SQPerturbation.x. Good examples are given in oper_f****3+G*.sh.
    For example, oper_f01Ce3+G7.sh will perform second perturbation calculations for Gamma_7 of f^1: f^1 f^1 -> f^0 f^2 -> f^1 f^1
    Note that HtSH_Oh.pfpi.-0.7.txt provides the Slater-Koster parameters for pfpi/pfsigma = -0.7.
-   Note that ManualMPI_f *.tsv is supposed to maximize the parallel efficiency for Ohtaka (supercomputer at ISSP). If you are not sure of this, set ManualMPI to 1 and ManualMPIFilename to any. (If ManualMPI = 1, ManualMPIFilename will be just passed by.)
+   Note that ManualMPI_f *.tsv is supposed to maximize the parallel efficiency for Ohtaka (supercomputer at ISSP). If you are not sure of this, set ManualMPI to 0 and ManualMPIFilename to any. (If ManualMPI = 0, ManualMPIFilename will be just passed by.)
 7. The output files for SQPerturbation.x will show the coupling constants. Meanwhile, you can also analyze which intermediate states contribute to the coupling constants most.
    Compile SQPerturbationDecompositionAnalyzer.cpp: e.g. mpicxx SQPerturbationDecompositionAnalyzer.cpp -o SQPerturbationDecompositionAnalyzer.x -std=c++11
 
